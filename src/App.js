@@ -3,6 +3,7 @@ import {
   Routes,
   Route,
 } from 'react-router-dom'
+import Navbar from './components/Navbar'
 import Explore from './pages/Explore'
 import Offers from './pages/Offers'
 import Profile from './pages/Profile'
@@ -24,6 +25,7 @@ function App() {
             element={<ForgotPassword />}
           />
         </Routes>
+        <Navbar />
       </Router>
     </>
   )
